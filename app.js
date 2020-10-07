@@ -1,6 +1,6 @@
 let fillbar = document.querySelector(".fill");
-let audios = ["Audio_One.mp3", "Audio_Two.mp3", "Audio_Three.mp3"];
-let covers = ["cover1.jpg", "cover2.jpg", "cover3.jpg"];
+let audios = ["media/Audio_One.mp3", "media/Audio_Two.mp3", "media/Audio_Three.mp3"];
+let covers = ["media/cover1.jpg", "media/cover2.jpg", "media/cover3.jpg"];
 let names = ["Song 1","Song 2","Song 3"];
 let artists = ["Artist 1 - Name 1","Artist 2 - Name 2","Artist 3 - Name 3"]
 let currentTime = document.querySelector(".time");
