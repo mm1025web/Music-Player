@@ -41,6 +41,7 @@ img {
   border-radius: 5px;
   box-shadow: 1px 1px 30px #111, -1px -1px 30px #111;
   overflow: hidden;
+  transition: 0.5s;
 }
 
 .container {
@@ -208,4 +209,10 @@ img {
 .repeat-btns button:hover {
   background: #ff0634;
   color: #fff;
+}
+
+@media(max-width:375px){
+  .player{
+    transform:translate(-50%, -50%) scale(0.7);
+  }
 }
